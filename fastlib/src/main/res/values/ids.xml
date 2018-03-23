@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用-->
+    <item type="id" name="swipe"/>
+    <item type="id" name="headView"/>
+    <item type="id" name="bottomView"/>
+    <item type="id" name="data"/>
+
+    <!--AbsActivityPreviewImage必需-->
+    <item type="id" name="viewPager"/>
+    <item type="id" name="indicator"/>
+
+    <!--网络图像加载用id-->
+    <item type="id" name="urlImage"/>
+</resources>

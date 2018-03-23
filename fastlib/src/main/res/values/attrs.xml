@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆角视图-->
+    <declare-styleable name="RoundImageView">
+        <attr name="border" format="boolean"/>
+        <attr name="shadow" format="boolean"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="type" format="integer"/>
+        <attr name="round_x" format="integer"/>
+        <attr name="round_y" format="integer"/>
+    </declare-styleable>
+
+    <attr name="circularImageViewStyle">
+        <flag name="border" value="0"/>
+        <flag name="shadow" value="0"/>
+        <flag name="border_width" value="0"/>
+        <flag name="border_color" value="0"/>
+    </attr>
+
+    <!--TitleBar通用属性-->
+    <declare-styleable name="TitleBar">
+        <attr name="titleText" format="string"/>
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="rightTextColor" format="color"/>
+    </declare-styleable>
+
+    <!--圆柱进度条属性-->
+    <declare-styleable name="RectProgress">
+        <attr name="progressPercent" format="float"/>
+        <attr name="progressTitle" format="string"/>
+    </declare-styleable>
+</resources>
